@@ -105,3 +105,39 @@ main {
     top: 0;
 }
 
+@media only screen and  (max-width: 768px) {
+    main {
+        padding: 20px;
+        max-width: 100%;
+    }
+    
+    .header {
+        padding: 25px;
+        height: auto;
+        min-height: 80px;
+    }
+    
+    .header > img {
+        width: 60px;
+    }
+    
+    .header > h1 {
+        font-size: 1.5rem;
+    }
+    
+    .form {
+        gap: 15px;
+    }
+    
+    .form input, .form button {
+        min-height: 44px;
+        font-size: 16px;
+    }
+    
+    .meme span {
+        font-size: 2.2rem;
+        margin-block: 12px;
+        padding-inline: 10px;
+    }
+}
+
